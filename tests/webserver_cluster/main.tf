@@ -5,7 +5,7 @@ provider "aws" {
 module "web" {
   source = "../../modules/webserver_cluster"
 
-  cluster_name  = "test-cluster"
+  cluster_name  = "test-cluster1"
   instance_type = "t2.micro"
   min_size      = 1
   max_size      = 2
